@@ -1,13 +1,16 @@
-fx_version "cerulean"
-game { "gta5" }
-
-author 'nyx-development'
-description 'elevator script.'
+fx_version 'cerulean'
+use_experimental_fxv2_oal 'yes'
+game 'gta5'
+lua54 'yes'
+author 'Anoxidus | Nyx Developments'
+description 'OXLIB Elevator'
 version '1.0.0'
+repository 'https://github.com/anoxidus/elevator-oxlib'
+
 
 client_scripts {
-  'Client.lua',
-  'Config.lua',
+  'client.lua',
+  'config.lua',
 }
 
 files {
@@ -16,5 +19,12 @@ files {
   'web/static/js/*.js',
   'web/static/css/*.css',
 }
+
+
+dependencies {
+    'ox_lib',
+}
+
+shared_script '@ox_lib/init.lua'
 
 ui_page 'web/index.html'
