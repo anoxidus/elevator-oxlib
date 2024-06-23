@@ -6,7 +6,7 @@ He made it for qbcore only and when people asked to make it for ESX (what takes 
 So here is my oxlib fork.
 
 # Depedency
-1. [ox_lib]([https://github.com/qbcore-framework/qb-core](https://github.com/overextended/ox_lib))
+1. [ox_lib](https://github.com/overextended/ox_lib)
 2. [interact](https://github.com/darktrovx/interact)
 
 
